@@ -1,0 +1,111 @@
+:root {
+    --white: #fff;
+    --black: #1c2b2d;
+    --blue: #31326f;
+    --light-blue: #005490;
+    --color-primary: #9d0191;
+    --color-sec: #db6400;
+    --grey: #eee;
+    --dark-grey: #222831;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-size: 20px;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    background: #1a4023;
+  }
+  
+  p {
+    font-size: 1.6rem;
+    line-height: 3;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    min-width: 100%;
+    min-height: 100%;
+    background: linear-gradient(90deg, #133f80 0%, #c3e0fd 51%, #b9fdd5 100%);  }
+  
+  .counter-div {
+    width: 50rem;
+    border: 1px solid var(--grey);
+    border-radius: 10px;
+    padding: 1rem;
+    color: black;
+    text-align: center;
+    border-radius: 6s00px;
+    border-color: #9d0191;
+  }
+  
+  .counter-div > * {
+    margin-bottom: 2rem;
+  }
+  
+  .count {
+    font-size: 10rem;
+  }
+  
+  .buttons button {
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button.subtract {
+    background: linear-gradient(90deg, #cf2020 0%, #ca2e2e 100%);    border: 2px solid #d2bdff;
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px
+  }
+  
+  button.reset {
+    background: linear-gradient(90deg, #d99bdc 0%, #fbe384 100%);    border: 2px solid #d2bdff;
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px
+  }
+
+  
+  
+  button.add {
+    background: linear-gradient(90deg, #02e089 0%, #f9db84 100%);    border: 2px solid #d2bdff;
+  height: 80px;
+  width: 200px;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  margin: 25px
+  }
