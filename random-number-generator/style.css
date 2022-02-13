@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #e4eaeb;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: rgb(185, 52, 52);
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-width: 100%;
+  min-height: 100%;
+background-image: linear-gradient(to bottom, #d50079, #ca2595, #b93daf, #a050c5, #7e61d6, #6273e3, #4083eb, #0091ee, #00a4ed, #00b4e3, #00c2d4, #50cdc5);}
+
+.counter-div {
+  width: 40rem;
+  border: 1px solid var(--grey);
+  padding: 1rem;
+  background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  color: var(--white);
+  text-align: center;
+  border-radius: 5px;
+}
+
+.counter-div > * {
+  margin-bottom: 2rem;
+}
+
+.count {
+  font-size: 4rem;
+}
+
+.buttons button {
+  padding: 1rem;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border: none;
+  color: white;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+ 
+  background: linear-gradient(90deg, #33636b 0%, #242677 100%);
+  
+}
