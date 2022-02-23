@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #004bbd;
+}
+
+* {
+  margin: 0;
+  padding: 100;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  /* background-color: #ccc; */
+  
+  background-color: #ffbdbd;
+  background-position: center;
+  
+  height: 100px;
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height:0;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* start here */
+
+section {
+  width: 100%;
+  padding: 0 3rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 5rem auto;
+}
+
+.add-item {
+  /* background-color: var(--color-primary); */
+
+  background: rgba(0, 0, 0, 0);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: none;
+  -webkit-backdrop-filter: blur(5px);
+  border: none;
+  padding: 5rem 0;
+  margin: 3rem auto;
+  border-radius: 50px;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 2rem;
+  padding-bottom: 8px;
+  color: #fff;
+  font-size: 3rem;
+}
+
+.add-item form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-item form input {
+  padding: 1rem 1.5rem;
+  font-size: 1.8rem;
+  color: var(--grey);
+  width: 75%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  margin-right: 5px;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+form button {
+  width: 10%;
+  font-size: 2.6rem;
+  background-color: #ffbdbd;
+  border: 20px;
+  backdrop-filter: none;
+  color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 0rem;
+}
+
+form button:hover {
+  background-color: rgba(124, 21, 21, 0.2);
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ffffff;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+ol li {
+  font-size: 1.6rem;
+  margin: 5px 0;
+  background-color: var(--color-primary);
+  border-radius: 50px;
+  padding: 2rem;
+  position: relative;
+}
+
+ol li:nth-child(odd) {
+  background-color: #ffa0f7;
+  color: var(--white);
+}
+
+li button {
+  font-size: 1.6rem;
+  cursor: pointer;
+  align-items: right;
+  position: absolute;
+  
+  right:  1rem;
+  top: 1.8rem;
+  
+  
+  color: #e91b1b;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+
+
+.trash {
+
+    width: 10%;
+  font-size: 2.6rem;
+  background-color: #ffbdbd;
+  border: 20px;
+  backdrop-filter: none;
+  color: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s;
+  padding: 0rem;
+}
