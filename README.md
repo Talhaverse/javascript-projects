@@ -4,7 +4,7 @@ This repository contains a collection of JavaScript projects that I have built a
 
 ## Project List
 
-### Projects listed Above 
+
 ...
 
 ## Getting Started
