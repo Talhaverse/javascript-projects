@@ -2,10 +2,6 @@
 
 This repository contains a collection of JavaScript projects that I have built as part of my learning journey. Each project focuses on a different concept or problem and demonstrates my understanding and skills in JavaScript development.
 
-
-
-
-
 ## Getting Started
 
 To run any of the projects locally, follow these steps:
