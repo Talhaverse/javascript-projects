@@ -1,6 +1,6 @@
 # JavaScript Projects Showcase
 
-This repository contains a collection of JavaScript projects that I have built as part of my learning journey. Each project focuses on a different concept or problem and demonstrates my understanding and skills in JavaScript development.
+The repository contains a collection of JavaScript projects that I have built as part of my learning journey. Each project focuses on a different concept or problem and demonstrates my understanding and skills in JavaScript development.
 
 ## Getting Started
 
